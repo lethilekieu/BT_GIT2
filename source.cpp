@@ -12,9 +12,17 @@ float dTChuNhat(int a, int b);
 float cVTron(int a);
 float dTTron(int a);
 int tong(int a, int b);
+void phepTru(int &kq);
+void phepCong(int &kq);
+bool kiemTra(int x, int a, int b);
 
-
-
+void phepTru(int &kq) {
+	int a = rand() % 100 + 1;
+	int b = rand() % 100 + 1;
+	cout << "so a :" << a << endl;
+	cout << "So b :" << b << endl;
+	cout << "a" << a << "-" << "b" << b << "=" << a - b;
+}
 
 int hieu(int a, int b)
 {
